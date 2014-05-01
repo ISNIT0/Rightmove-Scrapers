@@ -1,0 +1,3 @@
+var cheerio = require('cheerio');
+var db = require('mongojs').connect('test',['rightmoveCodes']);
+
